@@ -11,12 +11,12 @@ To do so, the project will consist of three major parts:
 In order to get data for analysis, a webscraper will be built in python using the selenium library. This file will then be ran to collect various information from the steam review page of Apex Legends, namely: 
 - Author of Review
 - Review Content
-- # of comments
+- \# of comments
 - Products on Account
 - Hours on Account
 - Remark
-- # of users found review funny
-- # of users found review helpful
+- \# of users found review funny
+- \# of users found review helpful
 - Community Awards
 
 These data will be the cornerstone of which the analysis will be made, discovering patterns and major topics that a lot of users frequently talk about in the reviews. The features will also act as a filter to group the reviews into separate parts to further enrich analysis. This separation can narrow down topics for that specific group (i.e.: frequently talked topics for people that recommend the game, have a lot of products on account, lots of hours on the game, or any combination of these)
@@ -29,5 +29,3 @@ The data will be ran through 3 specific methods to identify core topics and issu
 1. Wordcloud Generation - to identify frequently discussed topics in all reviews
 2. KMeans Clustering - group and classify reviews based on content
 3. Topic Extraction - extract keywords or topics per review
-
-4. 
